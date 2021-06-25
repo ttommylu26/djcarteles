@@ -46,7 +46,7 @@ body{
 
 .ventana--opciones:hover{
     cursor: pointer;
-    width: 40.3%;
+    transform: translateY(-10%);
     float: left;
     opacity: 100%;
 }
