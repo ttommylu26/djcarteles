@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    text-decoration-line: none;
 }
 
 hr{
@@ -36,53 +37,58 @@ header img{
 /* vínculos */
 .vinculos-contenedor{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
-.vinculos ul{
-    list-style: none;
-}
-
-.vinculos ul li{
-    margin: 5mm;
-}
-
-.vinculos ul img{
-    width: 1.2cm;
-    margin-right: 2mm;
-}
-
-.vinculos ul li a{
+.vinculos{
+    border-radius: 0.2cm;
+    text-align: center;
     color: white;
-    text-decoration-line: none;
+    margin: 3mm;
+    width: 3cm;
+    height: 3cm;
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 3mm;
-    border-radius: .5cm;
-    box-shadow: 0px 0px 20px rgb(173, 172, 172);
-    opacity: 50%;
-    transition: all .2s;
+    align-items: center;
+    transition: all .1s;
 }
 
-.vinculos ul li a:hover{
-    opacity: 100%;
+.vinculos:hover{
+    transform: translateY(-4%);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.vinculos p{
+    font-weight: 600;
 }
 
     /* marketplace */
-    .vinculos--marketplace{
+    .marketplace{
         background-color: rgb(64,128,254);
+    }
+
+    .marketplace img{
+        width: 1.6cm;
     }
     /* marketplace */
 
     /* whatsapp */
-    .vinculos--whatsapp{
+    .whatsapp{
         background-color: rgb(2,230,118);
+    }
+
+    .whatsapp img{
+        width: 1.6cm;
     }
     /* whatsapp */
 
     /* instagram */
-    .vinculos--instagram{
-        background-color: rgb(210,0,105); 
+    .instagram{
+        background-color: rgb(210,0,105);
+    }
+
+    .instagram img{
+        width: 1.5cm;
     }
