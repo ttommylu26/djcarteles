@@ -54,7 +54,7 @@ body{
         color: rgba(0, 0, 0, 0.404);
         text-align: right;
         margin-top: 2mm;
-        margin-bottom: 2mm;
+        margin-bottom: .5mm;
     }
     /* card--description */
 
@@ -62,7 +62,6 @@ body{
     #card--links{
         width: 100%;
         height: max-content;
-        margin-bottom: -20px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
